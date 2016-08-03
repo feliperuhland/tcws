@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+from datetime import timedelta
 
 import dj_database_url
 import decouple
@@ -121,3 +122,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CELERY_ROUTES = {
+    'api.tasks.save_data': {'queue': 'save_data'},
+    'api.tasks.freq': {'queue': 'freq'},
+}
+
+CELERYBEAT_SCHEDULE = {
+    'spider': {
+        'task': 'api.tasks.freq',
+        'schedule': timedelta(minutes=60),
+        'args': tuple(),
+    },
+}

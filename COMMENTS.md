@@ -52,3 +52,7 @@ mas poderia ser pelo link 'next'.
 # Criado o app para persistir os dados do scraping
 ## NowPlaying King For A Day by Green Day
 Vou dar uma acelerada para não ficar muito tarde!!!
+
+# Inclusão do celery
+## NowPlaying Juízo Final by Clara Nunes
+Para evitar que o banco não aguente a escrita
