@@ -16,3 +16,8 @@ Além do python 3 aproveito para atualizar o pip no container.
 
 # Branch Dev
 Vale destacar que eu criei uma nova branch pois não existe a possibilidade de criar um fork do meu próprio repositório.
+
+# Instalação do Python Decouple
+## NowPlaying U+I R 1 by Satanic Surfers
+É uma lib que ajuda no uso de variáveis de ambiente.
+Foi criada pelo Henrique Bastos, ele é relevante na comunidade python.
