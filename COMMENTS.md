@@ -21,3 +21,7 @@ Vale destacar que eu criei uma nova branch pois não existe a possibilidade de c
 ## NowPlaying U+I R 1 by Satanic Surfers
 É uma lib que ajuda no uso de variáveis de ambiente.
 Foi criada pelo Henrique Bastos, ele é relevante na comunidade python.
+
+# Instalação do Dj database
+## NowPlaying Dig Up Her Bones by Misfits
+É uma lib que facilita a importação do banco por url.
