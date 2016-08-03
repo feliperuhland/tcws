@@ -56,3 +56,7 @@ Vou dar uma acelerada para não ficar muito tarde!!!
 # Inclusão do celery
 ## NowPlaying Juízo Final by Clara Nunes
 Para evitar que o banco não aguente a escrita
+
+# Final do projeto
+Pela péssima estimativa de tempo, vou acabar o projeto por agora.
+Vou escrever um README para executar o projeto.

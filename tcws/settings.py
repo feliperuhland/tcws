@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'rest_framework',
+
     'api',
 ]
 
@@ -137,4 +139,11 @@ CELERYBEAT_SCHEDULE = {
         'schedule': timedelta(minutes=decouple.config('TASK_MINUTES', cast=int)),
         'args': tuple(),
     },
+}
+CELERYD_MAX_TASKS_PER_CHILD = 1
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
 }

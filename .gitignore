@@ -89,3 +89,7 @@ ENV/
 .ropeproject
 
 .env
+
+# celery
+celerybeat-schedule.db
+celerybeat.pid
