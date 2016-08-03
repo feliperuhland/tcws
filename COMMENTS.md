@@ -43,3 +43,8 @@ O ideal seria criar um projeto scrapy que se comunica com a api.
 # Criando o spider para ~raspar~ os dados
 ## NowPlaying Automatic by Less Than Jake
 A vontade é de buscar todos os dados possíveis, mas sei que não tenho tempo para tratar todos os casos.
+
+# Parâmetro para decidir quantas págians devem ser ~raspadas~
+## NowPlaying Boring Planet by Millencolin
+Nesta página foi mais simples criar um generator com as urls,
+mas poderia ser pelo link 'next'.

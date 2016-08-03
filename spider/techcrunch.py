@@ -8,7 +8,10 @@ class TechCrunchSpider(scrapy.Spider):
     Spider class for scraping TechCrunchs web site.
     """
     name = 'techcrunch'
-    start_urls = ('https://techcrunch.com/',)
+
+    def __init__(self, pages=None, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.start_urls = ['https://techcrunch.com/page/{}'.format(page_num) for page_num in range(1, int(pages)+1)]
 
     def parse(self, response):
         for article_link in response.css('li.river-block'):
