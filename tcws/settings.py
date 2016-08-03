@@ -27,7 +27,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = decouple.config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = decouple.config('DEBUG', default=False)
+DEBUG = decouple.config('DEBUG', default=False, cast=bool)
+PAGES = decouple.config('PAGES', default=1)
 
 ALLOWED_HOSTS = []
 
@@ -123,6 +124,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+BROKER_URL = decouple.config('RABBITMQ_URL')
+
 CELERY_ROUTES = {
     'api.tasks.save_data': {'queue': 'save_data'},
     'api.tasks.freq': {'queue': 'freq'},
@@ -131,7 +134,7 @@ CELERY_ROUTES = {
 CELERYBEAT_SCHEDULE = {
     'spider': {
         'task': 'api.tasks.freq',
-        'schedule': timedelta(minutes=60),
+        'schedule': timedelta(minutes=decouple.config('TASK_MINUTES', cast=int)),
         'args': tuple(),
     },
 }

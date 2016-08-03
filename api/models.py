@@ -15,7 +15,7 @@ class BaseModel(models.Model):
 class Author(BaseModel):
     name = models.CharField(max_length=60, blank=True)
     profile_url = models.URLField(blank=True, null=True)
-    twitter_acount = models.CharField(max_length=100, blank=True)
+    twitter_account = models.CharField(max_length=100, blank=True, null=True)
     resume = models.TextField(blank=True)
 
 

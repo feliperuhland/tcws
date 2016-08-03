@@ -2,6 +2,8 @@
 
 import scrapy
 
+from api import tasks
+
 
 class TechCrunchSpider(scrapy.Spider):
     """
@@ -47,4 +49,5 @@ class TechCrunchSpider(scrapy.Spider):
             'twitter_account': twitter_account,
             'resume':  ' '.join([a for a in response.css('div.profile-text > p::text').extract()]),
         }
+        tasks.save_data.apply_async([data])
         yield data

@@ -15,7 +15,7 @@ services:
       - "8000:8000"
     depends_on:
       - db
-  freq:
+  beat:
     build: .
     command: celery beat -A tcws
     volumes:
@@ -23,6 +23,8 @@ services:
     depends_on:
       - db
       - rabbitmq
+    environment:
+      C_FORCE_ROOT: 1
   save_data:
     build: .
     command: celery worker -A tcws -Q save_data -c 1
@@ -31,3 +33,15 @@ services:
     depends_on:
       - db
       - rabbitmq
+    environment:
+      C_FORCE_ROOT: 1
+  freq:
+    build: .
+    command: celery worker -A tcws -Q freq -c 1
+    volumes:
+      - .:/code
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      C_FORCE_ROOT: 1
