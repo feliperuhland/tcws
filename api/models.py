@@ -24,3 +24,4 @@ class Article(BaseModel):
     posted = models.DateTimeField(null=True, blank=True)
     title = models.CharField(max_length=200)
     text = models.TextField(blank=True)
+    author = models.ForeignKey(Author)
