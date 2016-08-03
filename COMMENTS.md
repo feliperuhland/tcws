@@ -35,3 +35,10 @@ Ao final, deixarei os detalhes no README.
 ## NowPlaying Blood Brothers by Papa Roach (Sim, é quase a playlist do thps2)
 A única alteração que eu faço no pep8 é o número de caracteres, pois 80 é complicado.
 Configuro para 120 que é o limite do github.
+
+# Instalando Scrapy e criando o modelo de spider
+## NowPlaying Out With The Old (uncensored Sterilized) (feat. Alleylife) by Alleylife
+Scrapy é um framework para web scraping.
+Vou criar apenas o spider para manter o projeto num mesmo repositório.
+O ideal seria criar um projeto scrapy que se comunica com a api.
+Eles já aceitaram um PR meu. Pretendo continuar acompanhando para contribuir com mais coisas.

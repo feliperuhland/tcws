@@ -4,3 +4,4 @@ python-decouple
 dj-database-url
 pip-tools
 flake8
+scrapy
