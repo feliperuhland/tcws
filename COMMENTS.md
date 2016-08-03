@@ -2,7 +2,6 @@
 ## NowPlaying Sunday Dust by Aldo, The Band
 
 São dez e quinze e não achei que eu ia demorar tanto para chegar em casa.
-Ainda bem que tem Master Chef hoje, então tá de boa!
 Hehehe.
 Bora!
 
@@ -11,7 +10,7 @@ Bora!
 Eu uso docker para qualquer ambiente de desenvolvimento, principalmente se envolver banco de dados.
 Vou criar os arquivos básicos para utilizar o django.
 
-# Python3 <3
+# Python3 
 Além do python 3 aproveito para atualizar o pip no container.
 
 # Branch Dev
@@ -20,7 +19,6 @@ Vale destacar que eu criei uma nova branch pois não existe a possibilidade de c
 # Instalação do Python Decouple
 ## NowPlaying U+I R 1 by Satanic Surfers
 É uma lib que ajuda no uso de variáveis de ambiente.
-Foi criada pelo Henrique Bastos, ele é relevante na comunidade python.
 
 # Instalação do Dj database
 ## NowPlaying Dig Up Her Bones by Misfits
@@ -41,4 +39,7 @@ Configuro para 120 que é o limite do github.
 Scrapy é um framework para web scraping.
 Vou criar apenas o spider para manter o projeto num mesmo repositório.
 O ideal seria criar um projeto scrapy que se comunica com a api.
-Eles já aceitaram um PR meu. Pretendo continuar acompanhando para contribuir com mais coisas.
+
+# Criando o spider para ~raspar~ os dados
+## NowPlaying Automatic by Less Than Jake
+A vontade é de buscar todos os dados possíveis, mas sei que não tenho tempo para tratar todos os casos.
