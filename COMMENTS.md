@@ -25,3 +25,13 @@ Foi criada pelo Henrique Bastos, ele é relevante na comunidade python.
 # Instalação do Dj database
 ## NowPlaying Dig Up Her Bones by Misfits
 É uma lib que facilita a importação do banco por url.
+
+# Env file
+## NowPlaying When Worlds Collide by Powerman 5000
+Criei um env file para organizar as variáveis de ambiente.
+Ao final, deixarei os detalhes no README.
+
+# Instalando pip tools e flake8
+## NowPlaying Blood Brothers by Papa Roach (Sim, é quase a playlist do thps2)
+A única alteração que eu faço no pep8 é o número de caracteres, pois 80 é complicado.
+Configuro para 120 que é o limite do github.

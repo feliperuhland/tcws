@@ -1,0 +1,6 @@
+Django
+psycopg2
+python-decouple
+dj-database-url
+pip-tools
+flake8
