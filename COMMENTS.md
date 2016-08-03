@@ -10,3 +10,9 @@ Bora!
 ## NowPlaying 96 Quite Bitter Beings by CKY
 Eu uso docker para qualquer ambiente de desenvolvimento, principalmente se envolver banco de dados.
 Vou criar os arquivos básicos para utilizar o django.
+
+# Python3 <3
+Além do python 3 aproveito para atualizar o pip no container.
+
+# Branch Dev
+Vale destacar que eu criei uma nova branch pois não existe a possibilidade de criar um fork do meu próprio repositório.
