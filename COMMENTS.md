@@ -48,3 +48,7 @@ A vontade é de buscar todos os dados possíveis, mas sei que não tenho tempo p
 ## NowPlaying Boring Planet by Millencolin
 Nesta página foi mais simples criar um generator com as urls,
 mas poderia ser pelo link 'next'.
+
+# Criado o app para persistir os dados do scraping
+## NowPlaying King For A Day by Green Day
+Vou dar uma acelerada para não ficar muito tarde!!!
